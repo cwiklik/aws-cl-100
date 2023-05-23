@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "aws-cl-100"
+  description: "fdsf"
+  annotations:
+    github.com/project-slug: cwiklik/aws-cl-100
+    backstage.io/kubernetes-id: "aws-cl-100"
+spec:
+  type: service
+  lifecycle: experimental
+  owner: "user:default/guest"
